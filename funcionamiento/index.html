@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styless.css">
+    <title>Document</title>
+</head>
+    
+<body>
+    <div class="container">
+        <div class="d-flex flex-column">
+          <div class="col-md-6">
+            <form class="bg-dark text-white p-4">
+              <h4 class="text-center mb-4">Descuento 5%</h4>
+              <div class="form-group mb-3">
+                <label for="descuentoOOO" class="form-label" id="">ID del producto</label>
+                <input type="text" class="form-control" id="datosDescuento" name="datosDescuento" placeholder="ID">
+              </div>
+              <button type="button" id="descuento" class="btn btn-danger w-100">Aplicar descuento</button>
+            </form>
+          </div>
+          <div class="col-md-6" id="segund">
+            <form class="bg-dark text-white p-4">
+              <h4 class="text-center mb-4">Producto más económico</h4>
+              <div class="form-group mb-3">
+                <label for="producto" class="form-label"></label>
+              </div>
+              <button type="button" id="minimo" class="btn btn-danger w-100">Ver Producto</button>
+            </form>
+          </div>
+
+          <div class="col-md-6" id="segundo">
+            <form class="bg-dark text-white p-4">
+              <h4 class="text-center mb-4">listar</h4>
+              <div class="form-group mb-3">
+                <label for="producto" class="form-label"></label>
+              </div>
+              <button type="button" id="listar" class="btn btn-danger w-100">Ver</button>
+                <table class="mb-4" id="tabla" >
+            </form>
+          </div>
+        </div>
+      </div>
+      
+      <table class="mb-4" id="tabla1" ></table>
+
+      
+      <table id="tabla">
+        <thead>
+          <tr>
+            <th>Precio más bajo</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+      
+      
+
+
+    
+</table>
+<script src="/js/funcionamiento.js"></script>
+</body>
+</html>
